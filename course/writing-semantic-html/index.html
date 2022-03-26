@@ -1,0 +1,261 @@
+<!-- Version 1 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-content"></div>
+      </div>
+      <div class="section">Section content</div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
+<!-- Version 2 - Secciones -->
+<!-- La etiqueta <section> nos ayudan a dividir el documento en distintas secciones -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="container">
+      <section id="header">
+        <section id="header-content"></section>
+      </section>
+      <section id="section">Section content</section>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+<!-- Version 3 - Artículos -->
+<!-- La etiqueta <article> sirve como contenedor para un contenido independiente de nuestro documento, lo cual se puede eliminar de nuestro documento y no debería modificar la estructura del documento -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="container">
+      <section id="header">
+        <section id="header-content"></section>
+      </section>
+      <article>
+        <h1>Article heading</h1>
+        <p>article content</p>
+      </article>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+<!-- Version 4 - Headers -->
+<!-- La etiqueta <header> se puede usar para poner un encabezado en una sección, en las secciones son casi obligatorias un <header>. Las etiquetas no puede estar dentro de una etiqueta <header>, <footer> o <address>   -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section id="header-content"></section>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+<!-- Version 5 - Footers -->
+<!-- La etiqueta <footer> a lo contrario de <header> sirve para cerrar la información dentro de una sección -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section id="header-content"></section>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+<!-- Version 6 - Navs -->
+<!-- La etiqueta <nav> sirve para agrupar todas las etiquetas permitan la navegación entre documentos, independientemente de como sea presente cada opción (links, imágenes, botones) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+<!-- Version 7 - Main -->
+<!-- La etiqueta <main> contiene el contenido principal del documento es importante solo tener uno en todo el documento ya que este es escaneado por los motores de búsqueda -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+<!-- Version 7 - Aside -->
+<!-- La etiqueta <aside> sirve para contener el contenido que no forma parte del contenido principal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <aside>Auxiliary content</aside>
+    <footer></footer>
+  </body>
+</html>
+<!-- Version 8 - Figure -->
+<!-- La etiqueta <figure> y <figcaption> sirve para contener elementos como imágenes, gráficos, fotos, etc -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <aside>Auxiliary content</aside>
+    <footer>
+      <figure>
+        <img src="" alt="No se encontró la imagen" />
+        <figcaption>Slogan</figcaption>
+      </figure>
+    </footer>
+  </body>
+</html>

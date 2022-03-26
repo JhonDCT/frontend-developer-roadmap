@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.nav__logo {
+    color: skyblue;
+    letter-spacing: 2px;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 16px;
+    letter-spacing: 2px;
+}
+
+.section {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__color-choose {
+    border-radius: 5px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    background-color: #000000;
+    padding: 8px;
+}
+
+.section__button {
+    border-radius: 5px;
+    border: 2px solid #000000;
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
